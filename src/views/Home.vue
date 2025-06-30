@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los primeros días de nuestra existencia, el sistema nervioso ha sido el motor invisible que permite nuestra interacción con el mundo. En esta unidad, exploraremos a fondo el papel del cerebro como centro de mando del cuerpo humano, resaltando su importancia en los procesos de aprendizaje desde una perspectiva pedagógica y científica.
+              p.descripcion.mb-4 Desde hace décadas, la neurociencia ha ofrecido descubrimientos esenciales sobre el funcionamiento del cerebro humano y su impacto en los procesos educativos. En esta unidad, se exploran modelos fundamentales que explican cómo el cerebro procesa la información, aprende, siente y actúa, con el fin de optimizar la enseñanza y personalizar los aprendizajes.
               
-              p #[b ¡Prepárese para descubrir cómo funciona su cerebro y cómo puede potenciar su capacidad para enseñar y aprender!]
+              p #[b ¡Prepárese para transformar su práctica educativa desde la ciencia del cerebro y la comprensión de los estilos de aprendizaje!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

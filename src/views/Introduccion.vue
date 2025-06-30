@@ -3,69 +3,68 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .row.mb-5
-      .col-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/intro/1.svg", data-aos="zoom-in")
-      .col-lg-10
-        p(data-aos="fade-left") A lo largo de esta Unidad 1: Fisiología del sistema nervioso, se analizará el papel del sistema nervioso en la adquisición de conocimientos, destacando la importancia del cerebro como un órgano social que se adapta y modifica en respuesta a los estímulos educativos.
-        p Comprender el funcionamiento del sistema nervioso, es esencial para desarrollar estrategias de estimulación que favorezcan un aprendizaje significativo. En este contexto, se abordarán las principales áreas cerebrales involucradas en los procesos cognitivos, tales como:
-    
-    .row.justify-content-center.align-items-stretch.mb-3
-      .col-lg-6.mb-3.mb-lg-0
-        .bg-color-1.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5.mb-2 Áreas motoras
-              p.mb-0 Responsables del movimiento.
 
-      .col-lg-6.mb-3.mb-lg-0
-        .bg-color-1.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/intro/3.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5.mb-2 Áreas del lenguaje
-              p.mb-0 Claves en la comunicación.
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6.mb-3.mb-lg-0
-        .bg-color-1.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/intro/4.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5.mb-2 Áreas de la visión
-              p.mb-0 Fundamentales en la percepción visual.
-
-      .col-lg-6.mb-3.mb-lg-0
-        .bg-color-1.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/intro/5.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5.mb-2 Áreas de la escritura
-              p.mb-0 Permiten la expresión escrita.
-    
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+    .row
+      .col-lg-4
         figure
-          img(src="@/assets/curso/intro/6.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p.mb-5(data-aos="fade-left") La relevancia de este conocimiento radica en su aplicación directa en la enseñanza, permitiendo la elaboración de metodologías que potencien las habilidades cognitivas y motrices de los estudiantes. Se invita a reflexionar sobre la influencia de los procesos cerebrales en el aprendizaje y a explorar técnicas que optimicen la enseñanza, considerando la plasticidad cerebral y los mecanismos de adaptación que permiten el desarrollo del conocimiento.
+          img(src="@/assets/curso/intro/1b.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-left").mb-4 Esta unidad, Modelos de aprendizaje desde la neurociencia, aborda la relación entre el funcionamiento cerebral y el aprendizaje, proporcionando herramientas claves para optimizar la enseñanza en diferentes contextos educativos.
     
-        .bg-color-2.p-4(data-aos="fade-left")
-          p Para aprovechar al máximo esta unidad, se espera un compromiso activo con la lectura y el análisis de los contenidos propuestos. La participación en actividades prácticas y el uso de estrategias innovadoras, facilitarán la comprensión de los temas abordados, promoviendo una formación integral basada en los principios de la neuropedagogía.
-          p.mb-0 Este enfoque permitirá no solo ampliar el conocimiento sobre el funcionamiento cerebral, sino también generar estrategias efectivas para mejorar el aprendizaje en diferentes contextos educativos.
+        .bg-color-2.p-4(data-aos="fade-left").mb-4
+          p.mb-0 Uno de los aspectos fundamentales de esta unidad, es el análisis del revelador triádico, una prueba que permite identificar la predominancia cerebral y el desarrollo cognitivo de cada individuo, para implementar estrategias neuro-educativas en el aula basadas en el funcionamiento del cerebro.
+
+
+        p La unidad se estructurará en tres secciones:
+
+
+    .bg-full-width.bg-color-13
+      .p-4.p-md-5
+
+        div.row.justify-content-center.align-items-stretch
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/intro/2b.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h5.mb-3.text-center Predominancia cerebral
+              p.mb-0.text-center Donde se analizará la activación de las diferentes áreas del cerebro y su impacto en el aprendizaje. 
+        
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/intro/3b.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h5.mb-3.text-center Revelador triádico
+              p.mb-0.text-center Herramienta clave para identificar estilos de pensamiento y optimizar el desarrollo intelectual.
+        
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/intro/4b.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h5.mb-3.text-center Componentes y sistemas de representación del cerebro
+              p.mb-0.text-center Que explicarán cómo el cerebro organiza la información y la importancia de los sistemas visual, auditivo y kinestésico en el aprendizaje.
+
+
+    .row.mb-5
+      .col-lg-7
+        .bg-color-3.px-4.py-5(data-aos="fade-left").mb-4
+          p.mb-0.text-white Se espera que, a lo largo de esta unidad, los estudiantes participen activamente en la exploración de estos conceptos, aplicando los conocimientos adquiridos en situaciones prácticas y reflexionando sobre la importancia de adaptar el aprendizaje a las características del cerebro. La comprensión de estos modelos no solo contribuirá al desarrollo profesional en el ámbito educativo, sino que también permitirá mejorar la forma en que se asimilan y estructuran nuevos conocimientos en la vida cotidiana.
+        
+
+      .col-lg-5.d-none.d-sm-block
+        figure
+          img(src="@/assets/curso/intro/5b.png", data-aos="zoom-in").mb-4.mb-lg-0
     
-    .bg-full-width.bg-color-3.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/intro/7.svg", style="max-width: 90px").mx-auto
-          .col-lg.text-white
-            p.mb-0 Si se desea profundizar en algún aspecto específico, se recomienda revisar los materiales complementarios, disponibles en el curso.
+    
+    
 
     
 

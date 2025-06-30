@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Fisiología del sistema nervioso',
+    numeroUnidad: '2',
+    tituloUnidad: 'Modelos de aprendizaje desde la neurociencia',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Funcionamiento del sistema nervioso, basado en el cerebro',
+        titulo: 'Predominancia cerebral',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'El cerebro',
+            titulo: 'Preferencia manual y factores hereditarios',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Sistema nervioso central',
+            titulo:
+              'Características, procesos de pensamiento y competencias de los cuadrantes cerebrales ',
             hash: 't_1_2',
           },
         ],
@@ -36,103 +37,47 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Áreas motoras, áreas del lenguaje, áreas de la visión, áreas de escritura, áreas cerebrales',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Áreas motoras',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Áreas del lenguaje',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Áreas de la visión',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Áreas de escritura',
-            hash: 't_2_4',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Predominancia cerebral',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Preferencia manual y factores hereditarios',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Características, procesos de pensamiento y competencias de los cuadrantes cerebrales ',
-            hash: 't_3_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
         titulo: 'Revelador triádico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '2.1',
             titulo: 'Revelador del cociente triádico',
-            hash: 't_4_1',
+            hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.2',
+            numero: '2.2',
             titulo: 'Características',
-            hash: 't_4_2',
+            hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.3',
+            numero: '2.3',
             titulo: 'Aplicación en la educación',
-            hash: 't_4_3',
+            hash: 't_2_3',
           },
         ],
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
-        numero: '5',
+        numero: '3',
         titulo: 'Componentes y sistemas de representación del cerebro',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '5.1',
+            numero: '3.1',
             titulo: 'Componentes del cerebro',
-            hash: 't_5_1',
+            hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '5.2',
+            numero: '3.2',
             titulo: 'Sistemas de representación',
-            hash: 't_5_2',
+            hash: 't_3_2',
           },
         ],
       },
