@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Predominancia cerebral'")
+  BannerInterno(:subTitulo="'1. Predominancia cerebral'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     p.mb-5 Para comenzar con el estudio de la temática, lo invitamos a ver el siguiente video.
@@ -9,10 +9,10 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/qQEKSn9c1CQ?si=Km7qHm8e8YvBx3-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    #t_3_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.1] Preferencia manual y factores hereditarios
+    #t_1_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.1] Preferencia manual y factores hereditarios
     
     p.mb-5 La comprensión de la preferencia manual y su relación con la lateralización cerebral ofrece una mirada profunda a la interacción entre genética, ambiente y neurodesarrollo.
 
@@ -33,8 +33,8 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema3/1.png', alt='')
 
-    #t_3_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.2] Características, procesos de pensamiento y competencias de los cuadrantes cerebrales 
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.2] Características, procesos de pensamiento y competencias de los cuadrantes cerebrales 
     
     p.mb-5 Según Ned Herrmann, citado por Alonso y Mendieta (2017), las características de los cuadrantes, son:
 

@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'4. Revelador triádico'")
+  BannerInterno(:subTitulo="'2. Revelador triádico'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     p.mb-5 Según el Test revelador del cociente tricerebral (2020), explica que, el cerebro triádico, también llamado cerebro triuno, es una teoría propuesta por el neurocientífico Paul D. MacLean en los años 60. Según esta teoría, el cerebro humano está compuesto por tres estructuras principales, cada una con funciones específicas:
@@ -13,7 +13,7 @@
         LineaTiempoD.color-primario.large-2(data-aos="fade-left")
           p(numero="1" titulo="Cerebro reptiliano (central)") Responsable de las funciones básicas de supervivencia, como la respiración, el ritmo cardíaco y los instintos primarios, también denominado práctico, juega un papel crucial en la supervivencia y la acción. Se asocia con el instinto de conservación, el comportamiento adaptativo y la ejecución de tareas motoras. Este segmento es responsable de la planificación estratégica, la toma de decisiones económicas y políticas, y la regulación de la interacción con el entorno. Su función es eminentemente concreta y operativa, apoyando la implementación de ideas en la realidad.
           p(numero="2" titulo="cerebro derecho, sistema límbico (derecho)") Relacionado con las emociones, la memoria y la motivación, también considerado emocional, está más vinculado con la creatividad, la intuición y el pensamiento holístico. Este hemisferio se enfoca en la percepción sensorial y el arte, permitiendo el procesamiento de imágenes, sonidos y emociones de forma espontánea y libre. Su funcionamiento es más relajado, con una capacidad de asociación intuitiva y abstracta, lo que lo hace esencial para el desarrollo artístico y la expresión emocional.
-          p(numero="3" titulo="Neocórtex (izquierdo)") Encargado del pensamiento lógico, el lenguaje y el razonamiento complejo, se asocia con el pensamiento lógico y analítico. Sus funciones principales incluyen el uso del lenguaje verbal y numérico, la capacidad de análisis y razonamiento, la organización de ideas de manera estructurada y la tendencia crítica e investigadora. Es el responsable del procesamiento lineal de la información, ayudando en actividades que requieren precisión y estructuración. escribir con claridad.
+          p(numero="3" titulo="Neocórtex (izquierdo)") Encargado del pensamiento lógico, el lenguaje y el razonamiento complejo, se asocia con el pensamiento lógico y analítico. Sus funciones principales incluyen el uso del lenguaje verbal y numérico, la capacidad de análisis y razonamiento, la organización de ideas de manera estructurada y la tendencia crítica e investigadora. Es el responsable del procesamiento lineal de la información, ayudando en actividades que requieren precisión y estructuración.
     
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0
@@ -56,8 +56,8 @@
           .col-lg.text-white
             p.mb-0 También se puede interpretar como conocer, crear y hacer, lo que refleja la manera en que el cerebro procesa la información y responde a los estímulos del entorno. Este modelo ha sido utilizado en la educación para diseñar estrategias que fomenten un aprendizaje más equilibrado, integrando tanto el pensamiento racional como el emocional y creativo. 
 
-    #t_4_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 4.1] Revelador del cociente triádico
+    #t_2_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.1] Revelador del cociente triádico
     
     .row.justify-content-center.align-items-center.bg-color-2.p-4.py-lg-0.px-lg-4.mb-5
       .col-lg-12
@@ -76,8 +76,8 @@
         .bg-color-8.px-4.py-5(data-aos="fade-left")
           p.mb-0 Los resultados pueden ser útiles para comprender el estilo de pensamiento de cada individuo y aplicar estrategias de aprendizaje o desarrollo personal que se ajusten a su manera de procesar la realidad. También se usa en campos como la neuropedagogía, la psicología y el desarrollo organizacional, ayudando a mejorar la comunicación, la educación y la toma de decisiones. 
     
-    #t_4_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 4.2] Características 
+    #t_2_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] Características 
     
     p.mb-5 Según el “Test revelador del cociente tricerebral” (2020), este test posee las siguientes características: 
 
@@ -169,8 +169,8 @@
             .col-lg
               p.mb-0 Esta clasificación es útil en ámbitos educativos, laborales y personales, debido a que permite ajustar metodologías de enseñanza y estrategias de desarrollo según el perfil cognitivo de cada individuo. 
     
-    #t_4_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 4.3] Aplicación en la educación
+    #t_2_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.3] Aplicación en la educación
 
     p.mb-5 Para Hernández Torres, Márquez Martínez y Belandria Rondón (2023), el test revelador del cociente tricerebral, tiene un impacto significativo en el ámbito educativo, dado que permite adaptar las estrategias pedagógicas a las características individuales de los estudiantes. Su aplicación contribuye a una enseñanza más personalizada y efectiva, promoviendo un aprendizaje equilibrado y holístico, a continuación, se presentan los factores que estos autores consideran positivos en su uso en la educación: 
 
@@ -222,7 +222,7 @@
                   p.mb-0 Se evalúan habilidades como el pensamiento crítico, la planificación estratégica y la capacidad de adaptación a nuevos entornos.
                 li.mb-0.d-flex
                   i.far.fa-arrow-alt-circle-right
-                  p.mb-0 e incluyen preguntas sobre la gestión emocional en situaciones de estrés y la creatividad aplicada en el trabajo.
+                  p.mb-0 Se incluyen preguntas sobre la gestión emocional en situaciones de estrés y la creatividad aplicada en el trabajo.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.mb-3.mb-lg-0
               figure

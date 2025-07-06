@@ -61,7 +61,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema5',
+        nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Componentes y sistemas de representación del cerebro',

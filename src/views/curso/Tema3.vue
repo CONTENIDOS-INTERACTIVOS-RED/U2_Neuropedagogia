@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'5. Componentes y sistemas de representación del cerebro'")
+  BannerInterno(:subTitulo="'3. Componentes y sistemas de representación del cerebro'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5
@@ -86,8 +86,8 @@
             p El cerebro para Lifeder (2024), permite la interacción con el mundo a través de la comunicación verbal y no verbal, facilitando el desarrollo de relaciones sociales y el aprendizaje. También coordina la interacción con objetos inanimados, permitiendo el uso de herramientas, la escritura y la manipulación de elementos físicos. 
             p.mb-0 El cerebro es un órgano altamente especializado que no solo garantiza la supervivencia, sino que también permite   el pensamiento complejo, la expresión emocional y la adaptación al entorno. Su funcionamiento integrado es clave para la vida cotidiana y el desarrollo humano. 
 
-    #t_5_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 5.1] Componentes del cerebro
+    #t_3_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.1] Componentes del cerebro
     
     p.mb-5 El estudio de las estructuras cerebrales y sus funciones es fundamental para comprender cómo se procesan las emociones, los pensamientos y las conductas humanas.
 
@@ -108,8 +108,8 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema5/9.png', alt='')
     
-    #t_5_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 5.2] Sistemas de representación
+    #t_3_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.2] Sistemas de representación
     
     p.mb-5 Los sistemas de representación son los mecanismos a través de los cuales recopilamos, almacenamos e interpretamos la información que seleccionamos, del entorno, en nuestra mente. En otras palabras, son las formas en que percibimos lo que sucede en el mundo. Generalmente, existen tres sistemas primarios de percepción, Accresio (2020). Se pueden clasificar en:
 
